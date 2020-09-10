@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+    <script src="js/operArit.js"></script>
+</head>
+<body>
+    <h1>Formulario Operaciones Aritmeticas</h1>
+    <form>
+        <label for="nUno">NUMERO 1</label>
+        <input type="text" name="nUno" id="nUno">
+        <br>
+        <label for="nDos">NUMERO 2</label>
+        <input type="text" name="nDos" id="nDos">
+        <br>
+        <button type="button" onclick="sumar()">Calcular</button>
+        <p>Resultado:
+            <textarea id="resulOperacion" cols="5" rows="1"></textarea>
+        </p>
+    </form>
+    <hr>
+    <h1>Formulario Calcular area Triangulo</h1>
+    <form>
+        <label for="nUno">Base </label>
+        <input type="text" name="base" id="base">
+        <br>
+        <label for="nDos">Altura</label>
+        <input type="text" name="alt" id="alt">
+        <br>
+        <button type="button" onclick="triangulo()">Calcular</button>
+        <p>Resultado:
+            <textarea id="resulttrian" cols="5" rows="1"></textarea>
+        </p>
+    </form>
+    <hr>
+    <h1>Formulario Calcular area Circulo</h1>
+    <form>
+        <label for="nUno">Radio </label>
+        <input type="text" name="base" id="radio">
+        <br>
+        <button type="button" onclick="circulo()">Calcular</button>
+        <p>Resultado:
+            <textarea id="resultcir" cols="5" rows="1"></textarea>
+        </p>
+    </form>
+    
+</body>
+</html>
